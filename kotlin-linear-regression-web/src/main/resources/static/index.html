@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Regresión Lineal - Kotlin/Ktor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+    <h1>Aplicación Web: Regresión Lineal</h1>
+</header>
+
+<main>
+    <section class="card">
+        <h2>Ingresar puntos</h2>
+        <p>Ingresa un punto por línea en el formato: x,y (también admite separadores espacio o punto y coma).</p>
+        <textarea id="pointsInput" rows="10" placeholder="Ejemplo:
+1,2
+2,3.5
+3,5"></textarea>
+
+        <div class="row">
+            <label for="datasetName">Nombre del dataset (opcional para guardar):</label>
+            <input id="datasetName" type="text" placeholder="Ej: Experimento A" />
+        </div>
+
+        <div class="row actions">
+            <button id="btnCalc">Calcular sin guardar</button>
+            <button id="btnSave">Guardar dataset</button>
+        </div>
+
+        <div id="messages" class="messages"></div>
+    </section>
+
+    <section class="card">
+        <h2>Resultado</h2>
+        <div id="result">
+            <p><strong>Ecuación:</strong> <span id="equation">-</span></p>
+            <p><strong>R²:</strong> <span id="r2">-</span></p>
+            <p><strong>Número de puntos:</strong> <span id="n">-</span></p>
+        </div>
+        <canvas id="chart" height="120"></canvas>
+    </section>
+
+    <section class="card">
+        <h2>Datasets guardados</h2>
+        <div class="row">
+            <button id="btnRefresh">Actualizar lista</button>
+        </div>
+        <ul id="datasetList"></ul>
+    </section>
+</main>
+
+<footer>
+    <small>Dylan Torres - David Avendaño - Laura Niño</small>
+</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
