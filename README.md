@@ -51,15 +51,13 @@ git clone https://github.com/DavidAvendanoUSA/Proyecto-Segundo-Corte-Kotlin.git
 cd Proyecto-Segundo-Corte-Kotlin
 ```
 
-Reemplaza `<owner>/<repo>` por el repositorio real (por ejemplo `DylanDD17/kotlin-linear-regression-web`).
-
 ## Ejecutar
 
 Copia los comandos en orden.
 
 ### Windows (PowerShell)
 ```powershell
-cd "C:\ruta\al\proyecto\kotlin-linear-regression-web"
+cd .\kotlin-linear-regression-web\
 
 .\gradlew.bat clean build
 
