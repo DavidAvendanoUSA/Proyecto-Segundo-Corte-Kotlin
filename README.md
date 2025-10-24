@@ -57,11 +57,9 @@ src/
 #### Ejecución:
 Copia los comandos en orden
 - En Windows Powershell:
-	```bash
-	cd "C:\ruta\al\proyecto\kotlin-linear-regression-web"
-	
+	```
+  	cd "C:\ruta\al\proyecto\kotlin-linear-regression-web"
 	.\gradlew.bat clean build
-	
 	$env:PORT="8080"; .\gradlew.bat run
 	```
 Accede: http://localhost:8080 -      Detener: Ctrl + C
@@ -178,7 +176,7 @@ Input:
 	  -H "Content-Type: application/json" \
 	  -d '{"points":[{"x":1,"y":2}]}'
 	```
-		- HTTP status: 400
+- HTTP status: 400
 	```json
 	{ "error": "Se requieren al menos 2 puntos para una regresión lineal." }
 	```
