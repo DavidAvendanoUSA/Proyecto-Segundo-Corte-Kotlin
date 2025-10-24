@@ -29,6 +29,7 @@ $$
 ---
 
 ## Estructura del proyecto
+```
 src/
 ├── main/
 │ ├── resources/
@@ -41,7 +42,7 @@ src/
 │ └── db/ # Configuración de SQLite y migraciones
 ├── build.gradle.kts # Scripts y configuración de Gradle
 └── settings.gradle.kts
-
+```
 
 ## GUÍA PARA EJECUTAR EL PROYECTO EN LOCAL
 #### Requisitos previos:
