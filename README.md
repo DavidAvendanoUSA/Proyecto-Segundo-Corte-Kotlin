@@ -57,10 +57,9 @@ Copia los comandos en orden
 - En Windows Powershell:
 	```
   	cd "C:\ruta\al\proyecto\kotlin-linear-regression-web"
- ```
+ 	```
 	.\gradlew.bat clean build
-```
-
+	```
 	$env:PORT="8080"; .\gradlew.bat run
 	```
 Accede: http://localhost:8080 -      Detener: Ctrl + C
