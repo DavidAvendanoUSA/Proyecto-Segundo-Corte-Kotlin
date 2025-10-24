@@ -1,9 +1,10 @@
 # PROYECTO SEGUNDO CORTE: SIMULADOR DE REGRESIÓN LINEAL
 
 ## INTRODUCCIÓN
-- Este proyecto implementa un simulador interactivo de regresión lineal desarrollado en Kotlin con Ktor y un frontend web, que permite visualizar cómo se ajusta una recta a un conjunto de puntos.
-- El objetivo es comprender de forma práctica cómo se calcula la línea de mejor ajuste en un modelo de regresión lineal simple, mostrando tanto la ecuación obtenida como el coeficiente de determinación (R²), todo de manera visual y sencilla.
-- La aplicación también permite guardar datasets, consultarlos y gestionarlos desde una base de datos SQLite, integrando de forma completa el flujo entre frontend, backend y persistencia.
+	Este proyecto implementa un simulador interactivo de regresión lineal desarrollado en Kotlin con Ktor y un frontend web, que permite visualizar cómo se ajusta una recta a un conjunto de puntos.
+	El objetivo es comprender de forma práctica cómo se calcula la línea de mejor ajuste en un modelo de regresión lineal simple, mostrando tanto la ecuación obtenida como el coeficiente de determinación (R²), todo de manera visual y sencilla.
+	La aplicación también permite guardar datasets, consultarlos y gestionarlos desde una base de datos SQLite, integrando de forma completa el flujo entre frontend, backend y persistencia.
+
 ---
 
 ### ¿Qué es la regresión lineal?
@@ -28,7 +29,6 @@ $$
 ---
 
 ## Estructura del proyecto
-```
 src/
 ├── main/
 │ ├── resources/
@@ -41,7 +41,7 @@ src/
 │ └── db/ # Configuración de SQLite y migraciones
 ├── build.gradle.kts # Scripts y configuración de Gradle
 └── settings.gradle.kts
-```
+
 
 ## GUÍA PARA EJECUTAR EL PROYECTO EN LOCAL
 #### Requisitos previos:
