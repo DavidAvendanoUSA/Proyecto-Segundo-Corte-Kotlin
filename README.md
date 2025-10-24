@@ -47,7 +47,7 @@ $$
 ## Clonar el proyecto
 
 ```bash
-git clone https://github.com/DylanDD17/kotlin-linear-regression-web.git
+git clone https://github.com/DavidAvendanoUSA/Proyecto-Segundo-Corte-Kotlin.git
 cd kotlin-linear-regression-web
 ```
 
