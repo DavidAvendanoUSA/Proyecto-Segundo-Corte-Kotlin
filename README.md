@@ -233,9 +233,3 @@ Autores:
 - David Alejandro Avendaño López
 - Laura Valentina Niño Rosas
 - Dylan David Torres Mancipe
-### 5) JSON malformado (syntax error)
-curl:
-```bash
-curl -s -w "\nHTTP_STATUS:%{http_code}\n" -X POST http://localhost:8080/api/regression \
-  -H "Content-Type: application/json" \
-  -d '{"points": [
