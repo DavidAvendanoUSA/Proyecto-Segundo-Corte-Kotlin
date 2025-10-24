@@ -67,7 +67,7 @@ Abre el navegador: http://localhost:8080 -      Detener: Ctrl + C
 
 ### macOS / Linux
 ```bash
-cd /ruta/al/proyecto/kotlin-linear-regression-web
+cd .\kotlin-linear-regression-web\
 
 ./gradlew clean build
 
