@@ -50,10 +50,8 @@ src/
 - Git
 - Internet para descargar dependencias (Gradle Wrapper)
 #### Clonar el repositorio
-	```bash
 	git clone https://github.com/DavidAvendanoUSA/Proyecto-Segundo-Corte.git
 	cd Proyecto-Segundo-Corte
-	```
 #### Ejecución:
 Copia los comandos en orden
 - En Windows Powershell:
